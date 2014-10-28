@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<actionScriptProperties analytics="false" mainApplicationPath="Main.as" projectUUID="325981ca-d0c2-4a68-9be1-7aeeafeeee33" version="10">
+<actionScriptProperties analytics="false" mainApplicationPath="HungryHero.as" projectUUID="325981ca-d0c2-4a68-9be1-7aeeafeeee33" version="10">
   <compiler additionalCompilerArguments="-locale en_US" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="true" htmlExpressInstall="true" htmlGenerate="true" htmlHistoryManagement="true" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="false" useDebugRSLSwfs="true" verifyDigests="true" warn="true">
     <compilerSourcePath>
       <compilerSourcePathEntry kind="1" linkType="1" path="Tools/starling/Gamua-Starling-Framework-def24cc/starling/src"/>
@@ -35,7 +35,7 @@
     <sourceAttachmentPath/>
   </compiler>
   <applications>
-    <application path="Main.as"/>
+    <application path="HungryHero.as"/>
   </applications>
   <modules/>
   <buildCSSFiles/>

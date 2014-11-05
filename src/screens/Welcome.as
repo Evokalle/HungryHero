@@ -1,11 +1,11 @@
 package screens
 {
+	import com.greensock.TweenLite;
+	
 	import starling.display.Button;
 	import starling.display.Image;
 	import starling.display.Sprite;
 	import starling.events.Event;
-	
-	import com.greensock.TweenLite;
 
 	public class Welcome extends Sprite
 	{
@@ -67,10 +67,12 @@ package screens
 			this.addEventListener(Event.ENTER_FRAME, heroAnimation);
 		}
 		
-		private function heroAnimation():void
+		private function heroAnimation(event:Event):void
 		{
-			// TODO Auto Generated method stub
-			
+			var currentDate:Date = new Date();
+			hero.y = 100 + (Math.cos(currentDate.getTime() * 0.002) * 25);
+			playBtn.y = 260 + (Math.cos(currentDate.getTime() * 0.002) * 10);
+			aboutBtn.y= 380 + (Math.cos(currentDate.getTime() * 0.002) * 10);
 		}
 	}
 }
